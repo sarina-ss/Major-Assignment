@@ -1,0 +1,26 @@
+li, td, p, a {
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+html {
+    background-color: azure;
+}
+
+.ribbon-highlight{
+  position:relative;
+  margin:0.1em;
+}
+.ribbon-highlight:before{
+  content:"";
+  z-index:-1;
+  left:-0.5em;
+  top:0.1em;
+  border-width:0.5em;
+  border-style:solid;
+  border-color:lightblue;
+  position:absolute;
+  width:100%;
+  border-left-color:transparent;
+  border-right-color:transparent;
+}
